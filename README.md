@@ -1,21 +1,12 @@
 ![graphic](./resources/repo-graphic.jpg)
 
-# Vietnamese Language Graph 🇻🇳
+# Spanish Language Graph 
 
-Xin chào các bạn!
-
-I'm in the process of learning Vietnamese, and something I want to focus on is expanding my vocabulary! Vietnamese has quite a few differences from English, but an important one is the low morpheme to word ratio. Vietnamese creates more complicated words (or words in different tenses) through creating compound words. 
-When you learn a single morpheme word in Vietnamese, you can usually build on that word to create more complex words around the same idea. 
-This project utilizes Python and Obsidian to visualize these compound words to improve vocabulary while learning the language.
-
-## Video
-To see how this project was created, and get a glimpse of my problem-solving method, check out the video here:
-
-[![My video summary of the project](https://img.youtube.com/vi/cTIb9MuCV0k/0.jpg)](https://www.youtube.com/watch?v=cTIb9MuCV0k)
+I'm in the process of learning Spanish, and something I want to focus on is expanding my vocabulary! 
 
 ## Project Summary
 
-This Python project takes a Vietnamese to English dictionary in the form of an XML file. It manipulates the XML data into a Pandas DataFrame, and then passes it to a search function. There are two search functions in the project:
+This Python project takes a Spanish to English dictionary in the form of an XML file. It manipulates the XML data into a Pandas DataFrame, and then passes it to a search function. There are two search functions in the project:
 
 **reverse_search_method**
 Reverse search method receives a DataFrame of words, then takes each word and splits it into morphemes and reverses the list. It iterates the morphemes, creates a word with a morpheme length equal to the iterated index, then reverses the word to put it back in proper order. This sub-word is then added to the connection list for the main word.

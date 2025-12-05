@@ -49,7 +49,7 @@ Obsidian will take some time to index and import this vault. That time is greatl
 
 ## Sources
 
-[Quang Hiển's Vietnamese Dictionary](https://github.com/HyrniT/vietnamese-english-dictionary)
+[Spanish to English Dictionary](es-en.xml)
 
 
 ## Like my work? 

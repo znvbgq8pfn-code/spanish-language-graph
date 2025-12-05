@@ -53,7 +53,7 @@ def reverse_search_method(df):
     print("Done")
 
 def parse_dictionary():
-    tree = ET.parse('./resources/Viet_Anh.xml') 
+    tree = ET.parse('./resources/es-en.xml') 
     dictionary = tree.getroot()
     df = pd.DataFrame(columns=['word', 'kebab', 'definition'])
     print('Parsing Dictionary...')
